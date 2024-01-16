@@ -107,4 +107,22 @@ time {
     
 }
 
+#entertainment {
+    background-color: #b7d5e5;
+}
+
+#entertainment .articles article a{
+    background-color: #00a8FF;
+}
+
+#technology {
+    background-color: #e1cbee;
+}
+
+#technology .articles article a{
+    background-color: #a167c9;
+}
+
+
+
 
