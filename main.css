@@ -1,0 +1,110 @@
+* { /*Tudo que não for estilizado vai assumir esse padrão*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #00BFFF;
+    padding: 16px 0;
+    color: #f5f6fa
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /*negrito*/
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none; /*removo o sublinhado do hiperlink*/
+}
+
+.container {
+    width: 1366px; /*largura notebook padrão*/
+    margin: 0 auto; /*margem para centralizar*/
+}
+
+.articles {
+    display: flex; /*organiza as noticias uma ao lado da outra*/ 
+    flex-wrap: wrap; /*Quando a linha acabar cria uma nova linha*/
+    justify-content: space-between; /*Distribui o espaço restante da linha de forma igual*/
+}
+
+.articles article img {
+    /*height: 180px; Definindo a altura maxima das img, a largura se adequa automaticamente para manter a proporção*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%; /*Definindo a largura dos artigos*/
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article p 
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article articles h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1); /*Definindo a cor de fundo da sessão*/
+}
+
+#sports .articles article a{
+    background-color: #009432; /*Definindo a cor de fundo do botão ler mais*/
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+time {
+    color: rgb(199, 197, 197);
+    
+}
+
+
